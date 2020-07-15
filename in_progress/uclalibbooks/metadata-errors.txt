@@ -1,7 +1,0 @@
-The CSV file has the following warnings:
-
-    The field name "Name.creator" is not supported. This field will be ignored, and the metadata for this field will not be imported.
-    The field name "Alternate Title.scriptArm" is not supported. This field will be ignored, and the metadata for this field will not be imported.
-    The field name "Alt ID.oclc" is not supported. This field will be ignored, and the metadata for this field will not be imported.
-    The field name "IIIF Access URL" is not supported. This field will be ignored, and the metadata for this field will not be imported.
-    Row 3: Rows missing "Rights.copyrightStatus" will have the value set to "unknown".
