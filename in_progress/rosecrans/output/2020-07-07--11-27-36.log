@@ -1,0 +1,6 @@
+2020-07-07 11:27:36,515 - root - INFO - STARTING at 2020-07-07 11:27:36...
+2020-07-07 11:27:59,044 - root - ERROR - Failed to upload 21198zz002h7hqj_pages.csv: Manifest generation failed: no protocol:  (HTTP 500)
+2020-07-07 11:27:59,044 - root - ERROR - --------------------------------------------
+2020-07-07 11:28:02,391 - root - ERROR - Failed to upload 21198zz002h7hz5_pages.csv: Manifest generation failed: no protocol:  (HTTP 500)
+2020-07-07 11:28:02,391 - root - ERROR - --------------------------------------------
+2020-07-07 11:28:07,490 - root - INFO - DONE at 2020-07-07 11:28:07.
