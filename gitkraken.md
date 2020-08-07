@@ -12,7 +12,7 @@ These instructions are for working with files in the `eureka` repository using G
 #### Clone the `eureka` repository
   * Clone the repository (repo) to your local machine (**you only have to do this the first time**)
   * On GitHub, copy the URL of the GitHub repo you will be working in
-  * On GitKraken, go to File > Open Repo then click "Clone" and paste the URL of the repository
+  * On GitKraken, go to File > Open Repo then click "Clone" and paste the URL of the repository and click the green "Clone the repo!" button
 
 
   ![](img/Clone.png)
@@ -86,20 +86,14 @@ These instructions are for working with files in the `eureka` repository using G
 
 #### Submit your work
 * Once you are ready to wrap up your work, you must merge your commits into the master branch
-* Go to [GitHub](https://github.com) and on the left-hand side click on the repo you are working in
-* Click the green "Compare & pull request" button at the top
+* Click "Pull Requests" on the left-hand side of the screen to begin the request
+* In the "From Repo" section be sure to select the repo you are working in and the **branch you created** for your work
+* In the "To Repo" section be sure to select the repo you are working in and the **master branch**
+* In the "Title" section be sure to include a description of the work you completed
+* In the "Description" section it can be helpful to include more details about what changes you made. This helps provide context for whoever approves the request so they can understand what has been updated.
+* In the "Reviewers" section you may tag someone to notify them of the pull request you are submitting (may not always be necessary)
+* Click the green "Create Pull Request" button
+* Now you are finished!
 
 
-![](img/Compare_And_Pull.png)
-
-
-* Create a new pull request on GitHub with your repository with the changes as the head and the repository you forked as the base then hit the green "Create pull request" button
-
-
-![](img/Create_Pull_Request.png)
-
-
-* You will likely be brought to a page with information about your commit and a message indicating your pull request requires review. This means you are all done!
-
-
-![](img/Final.png)
+![](img/Pull_Request.png)
