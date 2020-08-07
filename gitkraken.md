@@ -91,7 +91,6 @@ These instructions are for working with files in the `eureka` repository using G
 * In the "To Repo" section be sure to select the repo you are working in and the **master branch**
 * In the "Title" section be sure to include a description of the work you completed
 * In the "Description" section it can be helpful to include more details about what changes you made. This helps provide context for whoever approves the request so they can understand what has been updated.
-* In the "Reviewers" section you may tag someone to notify them of the pull request you are submitting (may not always be necessary)
 * Click the green "Create Pull Request" button
 * Now you are finished!
 
