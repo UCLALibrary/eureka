@@ -72,9 +72,30 @@ These instructions are for working with files in the `eureka` repository using G
 ![](/Users/jaketompkins97/Desktop/Push_Changes.png)
 
 
+* Confirm you are pushing/pulling from `origin` / `[Your New Branch]` and then click "Submit"
+
+![](/Users/jaketompkins97/Desktop/Branch_Confirmation.png)
+
+
 * Repeat these steps until the work is complete
 
 
 #### Submit your work
 * Once you are ready to wrap up your work, you must merge your commits into the master branch
-* Create a new pull request on GitHub with your repository with the changes as the head and the repository you forked as the base
+* Go to [GitHub](https://github.com) and on the left-hand side click on the repo you are working in
+* Click the green "Compare & pull request" button at the top
+
+
+![](/Users/jaketompkins97/Desktop/Compare_And_Pull.png)
+
+
+* Create a new pull request on GitHub with your repository with the changes as the head and the repository you forked as the base then hit the green "Create pull request" button
+
+
+![](/Users/jaketompkins97/Desktop/Create_Pull_Request.png)
+
+
+* You will likely be brought to a page with information about your commit and a message indicating your pull request requires review. This means you are all done!
+
+
+![](/Users/jaketompkins97/Desktop/Final.png)
