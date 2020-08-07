@@ -3,20 +3,78 @@
 These instructions are for working with files in the `eureka` repository using GitKraken.
 
 ### Setup
-* Create a GitHub account (if you do not already have one):
-* Install GitKraken: [https://www.gitkraken.com/](https://www.gitkraken.com/)
-  * (Add steps here to configure/setup GitKraken)
+* Create a [GitHub](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account) account (if you do not already have one)
+* Install GitKraken
+  * [Download](https://gitkraken.com/download) the Git client here (Windows or Mac)
 
-### Cloning the `eureka` repository
+### Workflow
 
-
-### Creating a new branch for your working
-
-
-### Work on files...
+#### Clone the `eureka` repository
+  * Clone the repository (repo) to your local machine (**you only have to do this the first time**)
+    * Open your terminal and use the command `git clone https://github.com/UCLALibrary/eureka`
 
 
-### Once you are ready to wrap up for the day/session, stage and commit your work
+#### Pull down upstream changes
+* At the start of each new task/ticket, make sure you are on the `master` branch and pull down any recent changes
 
 
-### ...
+![](/Users/jaketompkins97/Desktop/Pull_Upstream.png)
+
+
+#### Create a new branch for your work
+* Using **GitKraken**:
+  * Open the Eureka project folder in GitKraken (File > Open Repo > Open a Repository) the Jira ticket number and a very brief description (no spaces or special characters)
+
+
+  ![](/Users/jaketompkins97/Desktop/Open_Repo.png)
+
+
+  * Make sure you are on the master branch. If you are not, click the three dots on the master branch and then click "Checkout master"
+
+
+  ![](/Users/jaketompkins97/Desktop/Checkout_Master.png)
+
+
+  * On the master branch, click the three dots again and this time click "Create branch here"
+
+
+  ![](/Users/jaketompkins97/Desktop/Create_Branch.png)
+
+
+  * Name the branch using the Jira ticket number and a very brief description (no spaces or special characters) ex:`Idep-247-arce-batch1` and then hit enter
+
+
+#### Work on files
+* Make any edits to the files and save your work
+* Once you are ready to wrap up for the day or session, stage and commit your work:
+  * In **GitKraken**:
+    * Hit the "Stage all changes"
+
+
+![](/Users/jaketompkins97/Desktop/Stage_Changes.png)
+
+
+* Type a commit message into the text box
+
+
+![](/Users/jaketompkins97/Desktop/Write_Commit.png)
+
+
+* Hit the green "Commit changes to # file(s)"
+
+
+![](/Users/jaketompkins97/Desktop/Final_Commit_Changes.png)
+
+
+* Click the "Push" button to send your changes to the remote repo
+
+
+![](/Users/jaketompkins97/Desktop/Push_Changes.png)
+
+
+* Repeat these steps until the work is complete
+
+
+#### Submit your work
+* Once you are ready to wrap up your work, you must merge your commits into the master branch
+* Create a new pull request on GitHub with your repository with the changes as the head and the repository you forked as the base
